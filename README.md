@@ -34,10 +34,22 @@ dpo-ct/
 
 Complémentaire de : `recherche-juridique` (validation de vigueur et
 citation), `dpm-fpt` (police municipale — frontière vidéoprotection),
-`drh-fpt` (RH statutaire — frontière traitements RH), et des futurs skills
-**DSI** (mise en œuvre technique de la sécurité) et **finances**.
+`drh-fpt` (RH statutaire — frontière traitements RH), `dsi-fpt` (mise en
+œuvre technique de la sécurité), `dirfi-fpt` (fond budgétaire et comptable) et
+`dcp-fpt` (commande publique — le DPO garde le contenu RGPD des clauses).
 Les frontières sont documentées dans `SKILL.md` §5.4.
 
 ## Maintenance
 
 Voir `SKILL.md` §9 (JOURNAL, CHANGELOG, revue de rentrée du 1er septembre).
+
+## Validation
+
+```
+python3 scripts/validate_repo.py
+python3 -m unittest discover -s tests
+```
+
+Contrôles statiques (frontmatter, version alignée, inventaire, liens,
+frontières nommées, ancre unique). Exécutés en CI (`validate.yml`). Ils ne
+mesurent pas la qualité des réponses du skill.

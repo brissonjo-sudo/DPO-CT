@@ -2,6 +2,34 @@
 
 Versionnage sémantique MAJEUR.MINEUR.PATCH.
 
+## [0.2.2] — 2026-10-07
+
+### Contexte
+`dsi-fpt`, `dirfi-fpt` et `dcp-fpt` existent désormais. `dpo-ct` renvoyait
+encore vers un « futur skill DSI » et un « futur skill finances », et traitait
+le droit de la commande publique comme « hors skill ».
+
+### Modifié
+- `SKILL.md` : `description` (exclusions `dsi-fpt` et `dcp-fpt`, 1 002
+  caractères), dépendances, table des frontières §5.4 (ligne **commande
+  publique**), hiérarchie de co-activation §5.5, auto-vérification §7, règle
+  de repli (skill nommé absent : signaler la limite et s'arrêter).
+- `references/securite-traitements.md` : renvoi `dsi-fpt` ; la DSI fournit les
+  mesures techniques de l'AIPD, le DPO la conduit.
+- `references/sous-traitance-transferts.md` : renvoi `dcp-fpt` pour le fond de
+  la passation, de l'exécution et de la modification du marché.
+- `README.md` : écosystème à jour.
+
+### Ajouté
+- `scripts/validate_repo.py`, `tests/test_validate_repo.py` et
+  `.github/workflows/validate.yml` : validation statique en CI.
+- `.gitattributes` (fins de ligne LF, repris des dépôts frères), `vault/`.
+
+### Inchangé
+Aucun changement de fond RGPD, aucune nouvelle référence juridique. L'ancre
+`## 1. Déclenchement` est conservée (surcharge d'instructions du plugin).
+Version **non mesurée** : aucune campagne n'a été rejouée.
+
 ## [0.2.1] — 2026-07-22
 
 ### Contexte

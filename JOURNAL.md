@@ -41,3 +41,18 @@ Une entrée par cas, au format ci-dessous.
   `Dpm-fpt` (`README.md`, `CHANGELOG.md`, `JOURNAL.md`, `AGENTS.md`).
 - Statut : intégré (v0.2.1) — aucun audit de fond réalisé à ce stade ; c'est
   un chantier distinct, non engagé ici.
+
+### 2026-10-07 — Frontières à jour et validation statique (v0.2.2)
+- Type : cas nouveau
+- Branche : `securite-traitements`, `sous-traitance-transferts` et frontières
+  du `SKILL.md`
+- Contexte (anonymisé) : trois skills voisins (`dsi-fpt`, `dirfi-fpt`,
+  `dcp-fpt`) sont apparus depuis la création du dépôt. `dpo-ct` parlait encore
+  de « futurs skills » et laissait la commande publique « hors skill ».
+- Constat : un renvoi vers un skill inexistant désoriente l'utilisateur et le
+  modèle ; sans validateur, rien n'empêchait de le réintroduire.
+- Action : renvois nommés, ligne « commande publique » dans la table des
+  frontières, règle de repli, validateur et CI. Aucun changement de fond RGPD.
+- Statut : intégré (v0.2.2) — non mesuré ; `dsi-fpt` n'est pas encore publié
+  (brouillons en cours) mais son nom est arrêté.
+
