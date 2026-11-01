@@ -2,6 +2,22 @@
 
 Versionnage sémantique MAJEUR.MINEUR.PATCH.
 
+## [Non publié] — 2026-11-01
+
+### Contexte
+Le dépôt ne comportait aucun fichier ni mention de licence. Il est désormais
+diffusé sous licence publique de l'Union européenne (EUPL) 1.2.
+
+### Ajouté
+- `LICENSE` : texte officiel anglais de l'EUPL 1.2 (Commission européenne),
+  précédé de la mention de copyright.
+- `LICENCE.fr.txt` : texte officiel français de l'EUPL 1.2.
+- `README.md` : section « Licence ».
+
+### Inchangé
+Versions antérieures inchangées : aucune réécriture de l'historique. Aucun
+changement de comportement du skill.
+
 ## [0.2.2] — 2026-10-07
 
 ### Contexte
