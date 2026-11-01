@@ -53,3 +53,12 @@ python3 -m unittest discover -s tests
 Contrôles statiques (frontmatter, version alignée, inventaire, liens,
 frontières nommées, ancre unique). Exécutés en CI (`validate.yml`). Ils ne
 mesurent pas la qualité des réponses du skill.
+
+## Licence
+
+Copyright (c) 2026 Jonathan BRISSON (@brissonjo-sudo)
+Licensed under the EUPL
+
+À compter de cette version, ce dépôt est diffusé sous licence publique de l'Union européenne (EUPL) 1.2 : texte anglais dans `LICENSE`, texte français dans `LICENCE.fr.txt`. Toutes les versions linguistiques de l'EUPL approuvées par la Commission européenne ont la même valeur (article 13 de la licence).
+
+Les versions antérieures de ce dépôt ne comportaient pas de licence déclarée ; leur contenu a été diffusé dans le plugin collectivite-territoriale, versions 1.4.0 et antérieures, sous CC-BY-SA-4.0.
