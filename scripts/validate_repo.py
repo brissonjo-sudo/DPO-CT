@@ -139,7 +139,7 @@ def validate_versions(validation: Validation, root: Path, version: str | None) -
     changelog = root / "CHANGELOG.md"
     validation.require(changelog.is_file(), "CHANGELOG.md absent")
     if changelog.is_file():
-        first = re.search(r"(?m)^## \[(?!Non publié\])([^\]]+)\]", read_text(changelog))
+        first = re.search(r"(?m)^## \[([^\]]+)\]", read_text(changelog))
         validation.require(
             first is not None and first.group(1) == version,
             f"CHANGELOG.md : l'entrée la plus récente doit être [{version}]",

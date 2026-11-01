@@ -2,7 +2,7 @@
 
 Versionnage sémantique MAJEUR.MINEUR.PATCH.
 
-## [Non publié] — 2026-11-01
+## Non publié : licence EUPL 1.2 (2026-11-01)
 
 ### Contexte
 Le dépôt ne comportait aucun fichier ni mention de licence. Il est désormais
