@@ -2,6 +2,42 @@
 
 Versionnage sémantique MAJEUR.MINEUR.PATCH.
 
+## [0.2.3] — 2026-11-03
+
+### Contexte
+Veille juridique delta du 2026-09-17 au 2026-11-03. Sources lues sur
+Légifrance le 2026-11-03 : loi 78-17, art. 22 (LEGIARTI000054928123, version
+du 2026-10-01) ; décision CC n° 2025-1154 QPC du 8 août 2025
+(CONSTEXT000052086215) ; CSI, art. R. 253-6 (LEGIARTI000048476439, version
+du 2023-11-30) ; loi 78-17, art. 105, 107, 108 (LEGIARTI000037817686,
+...690, ...692) ; CE 16/10/2026 n° 499597 (CETATEXT000054993121) et CE
+20/10/2026 n° 511156 (CETATEXT000055005485), tous deux inédits au recueil
+Lebon.
+
+### Modifié
+- `references/relations-cnil.md` : procédure de sanction — droit de se
+  taire devant la formation restreinte, art. 22 modifié au 2026-10-01,
+  CE n° 499597 ; déclencheur de vérification précisé.
+- `references/droits-personnes.md` : **correction** — sous le titre III, les
+  droits s'exercent directement auprès du responsable ; la voie CNIL n'est
+  ouverte qu'en cas de restriction (§4, §5.9). Nouveau §5.10 (personnes
+  filmées, CSI R. 253-6) ; CE n° 511156 au §5.2 (accès et données non
+  conservées).
+- `references/secteur-collectivites.md` §5.6, `references/analyse-situation.md`
+  §1 et §2 : renvois à R. 253-6 (information du public, droits).
+- `references/socle-sources-verification.md` : R. 253-6 au noyau (§3) ;
+  §8 « Revues datées » (veille du 2026-11-03).
+- `tests/test_validate_repo.py` : version de référence du test de
+  désalignement.
+
+### Non intégré
+Lignes directrices CEPD 04/2026 (en consultation jusqu'au 2026-11-13) et
+avis CNIL du 2026-10-01 sur des projets de texte : pas du droit positif.
+
+### Inchangé
+Ancre `## 1. Déclenchement` conservée. Version **non mesurée** : aucune
+campagne rejouée. Le skill doit être ré-épinglé dans le plugin.
+
 ## Non publié : licence EUPL 1.2 (2026-11-01)
 
 ### Contexte
