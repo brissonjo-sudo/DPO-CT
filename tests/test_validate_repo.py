@@ -69,7 +69,7 @@ class ValidateRepoTests(unittest.TestCase):
         self.assertTrue(any("ancre" in e for e in self.errors()))
 
     def test_version_desalignee(self) -> None:
-        self.edit("CHANGELOG.md", "## [0.2.2]", "## [0.2.9]")
+        self.edit("CHANGELOG.md", "## [0.2.3]", "## [0.2.9]")
         self.assertTrue(any("CHANGELOG" in e for e in self.errors()))
 
     def test_frontiere_non_nommee(self) -> None:

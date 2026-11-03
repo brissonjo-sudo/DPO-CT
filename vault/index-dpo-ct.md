@@ -1,7 +1,7 @@
 ---
 tags: [skill/dpo-ct, index]
-version: 0.2.2
-date: 2026-10-07
+version: 0.2.3
+date: 2026-11-03
 ---
 
 # Index — skill `dpo-ct`

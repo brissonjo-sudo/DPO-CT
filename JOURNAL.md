@@ -56,3 +56,17 @@ Une entrée par cas, au format ci-dessous.
 - Statut : intégré (v0.2.2) — non mesuré ; `dsi-fpt` n'est pas encore publié
   (brouillons en cours) mais son nom est arrêté.
 
+### 2026-11-03 — Veille delta et droits des personnes filmées (v0.2.3)
+- Type : erreur | lacune
+- Branche : `droits-personnes`, `relations-cnil`, `secteur-collectivites`
+- Contexte (anonymisé) : veille juridique du 2026-11-03 ; question ouverte
+  du skill `dpm-fpt` sur le fondement du droit d'accès d'une personne filmée.
+- Constat : le skill présentait l'exercice des droits sous le titre III
+  comme « indirect (via la CNIL) », alors que l'accès y est direct et que la
+  CNIL n'intervient qu'en cas de restriction ; il ne citait pas le régime
+  propre de la vidéoprotection (CSI R. 253-6) ; l'art. 22 de la loi 78-17
+  a changé au 2026-10-01 (droit de se taire).
+- Action : correction §4 et §5.9, nouveau §5.10, renvois sectoriels,
+  procédure de sanction mise à jour, revue datée dans le socle.
+- Statut : intégré (v0.2.3) — non mesuré.
+
